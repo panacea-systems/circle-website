@@ -47,14 +47,16 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>
           </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span></a>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home">
+          	<img class="nav-logo" src="images/logo/Circle_Logo-25X25.png">
+          </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#home" class="smoothScroll">Home</a></li>
 			<li> <a href="#about" class="smoothScroll"> About</a></li>
 			<li> <a href="#services" class="smoothScroll"> Services</a></li>
-			<li> <a href="#team" class="smoothScroll"> Team</a></li>
+			<li> <a href="#team" class="smoothScroll"> Technology</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,11 +71,7 @@
   </script>
   
 		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home" >
-			<!--header class="clearfix">
-
-style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background-size: cover; margin-top:0px;margin-bottom:0px;"
-		</header-->	  
+	    <div id="headerwrap" id="home" name="home" >	  
 			<img src="images/CoverArt_LowRes.jpg" id ="home-background" style="width:100%;">  
 	    </div>
         
@@ -85,7 +83,7 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 		<div id="greywrap">
 			<div class="row">
 				<div class="col-lg-4 callout">
-					<span class="icon icon-stack"></span>
+					<img class="basic-logo" src="images/philosophy.png">
 					<h2>The Philosophy</h2>
                     <p>
                     Have you ever wondered how cool it would be if everything you wanted to buy could be paid for with blink of an eye? Be it an online purchase or offline? We wondered that too and that's what drove us to initiate Circle. Circle takes care of all your transactions without you breaking a sweat. We strive to do the grunt-work for you, and while you sit back and focus on enjoying the services, we ensure that your both your payments and the service go to the right places.
@@ -93,7 +91,7 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 				</div><!-- col-lg-4 -->
 					
 				<div class="col-lg-4 callout">
-					<span class="icon icon-eye"></span>
+					<img class="basic-logo" src="images/people.png">
 					<h2>The Players</h2>
 					<p>
                     Service or instrument? We got all covered. Some real cool services are on their way at your door-step. And Circle will be there to make sure you can have them and that too instantly. Doesn't matter whether you are using a browser, mobile, tablet, or any other device, Circle aims to be electronically omnipresent. Our web services ensure that you get the best modern information technology has to offer, and our devices ensure that you have the right means to get them.
@@ -101,7 +99,7 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 				</div><!-- col-lg-4 -->	
 				
 				<div class="col-lg-4 callout">
-					<span class="icon icon-heart"></span>
+					<img class="basic-logo" src="images/plan.png">
 					<h2>The Big Plan</h2>
 					<p>
 					We are being connected with a couple of services and a couple of providers at this time. But we have it in our pipeline to make sure that in coming days, we extend ourselves to the max, so that virtually whatever it is you wish to buy, you can pay through us, safely, securely, and with absolute easy.
@@ -114,8 +112,6 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 		<div class="container" id="about" name="about">
 			<div class="row white">
 			<br>
-				<h1 class="centered">A LITTLE ABOUT OUR AGENCY</h1>
-				<hr>
 				
 				<div class="col-lg-6">
 					<p>
@@ -131,9 +127,6 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 						the country and speed the process of payment to ensure a smoother operation of the 
 						economy.
 					</p>
-				</div><!-- col-lg-6 -->
-				
-				<div class="col-lg-6">
 					<p>
 						Through Circle ©, users can pay for purchases in a blink of an eye. It is a fully secure
 						and compliant transaction processing platform, maintaining all the strict guidelines 
@@ -142,16 +135,20 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 						processed through its premises.
 					</p>
 				</div><!-- col-lg-6 -->
+				<div class="col-lg-6">
+					<img src="images/About_Art.png" class="side-photo">
+				</div><!-- col-lg-6 -->
 			</div><!-- row -->
 		</div><!-- container -->
 		
 		<!-- ==== SECTION DIVIDER1 -->
-		<section class="section-divider textdivider divider1" style="background:url('http://www.prepbootstrap.com/Content/images/shared/shield/bg/divider1.jpg');">
+		<section class="section-divider textdivider divider1">
 			<div class="container">
-				<h1>Revolutionizing payments in Bangladesh</h1>
-				<hr>
-				<p>Circle © is the first of its kind in the Bangladeshi market, and will continue to be so with its
+				<img src="images/Payments.png" class="payment-image">
+				<div class="payment-text-background">
+				<p class="payment-text">Circle © is the first of its kind in the Bangladeshi market, and will continue to be so with its
 				relentless updates and value additions.</p>
+				</div>
 			</div><!-- container -->
 		</section><!-- section -->
 		
@@ -183,8 +180,8 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
   		
 
 		<!-- ==== SECTION DIVIDER2 -->
-		<section class="section-divider textdivider divider2" style="background:url('http://www.prepbootstrap.com/Content/images/shared/shield/bg/divider2.jpg');">
-			<div class="container">
+		<section class="section-divider textdivider divider2" style="background:url('images/tech-stack-background.jpg');o-repeat center; background-size: cover;">
+			<div class="container custom-background">
 				<h1>Technology Stack used in Circle©</h1>
 				<hr>
 				<p>
@@ -199,13 +196,13 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 		<div class="container" id="team" name="team">
 		<br>
 			<div class="row white centered">
-				<h1 class="centered">MEET OUR AWESOME TEAM</h1>
 				<hr>
 				<br>
 				<br>
 				<div class="col-lg-4 centered">
-					<img class="img img-circle" src="http://www.prepbootstrap.com/Content/images/shared/shield/team/team01.jpg" height="120px" width="120px" alt="">
+					<img class="n_i_a-logo" src="images/node.png">
 					<br>
+
 					<h4><b>The Node</b></h4>
 					<p>
 						They will have the responsibility of taking in the payment signals and encapsulating those
@@ -215,7 +212,7 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 				</div><!-- col-lg-4 -->
 				
 				<div class="col-lg-4 centered">
-					<img class="img img-circle" src="http://www.prepbootstrap.com/Content/images/shared/shield/team/team02.jpg" height="120px" width="120px" alt="">
+					<img class="n_i_a-logo" src="images/integration.png">
 					<br>
 					<h4><b>The Integrator</b></h4>
 					<p>
@@ -227,7 +224,7 @@ style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background
 				</div><!-- col-lg-4 -->
 				
 				<div class="col-lg-4 centered">
-					<img class="img img-circle" src="http://www.prepbootstrap.com/Content/images/shared/shield/team/team03.jpg" height="120px" width="120px" alt="">
+					<img class="n_i_a-logo" src="images/api.png">
 					<br>
 					<h4><b>The API Layer</b></h4>
 					<p>

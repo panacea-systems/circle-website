@@ -98,6 +98,37 @@ body {
                 src: url('http://fonts.googleapis.com/css?family=Pacifico');
             }
 
+.nav-logo{
+    margin-top: -4px;
+}
+.side-photo{
+    padding-top: 37px;
+    width: 100%;
+    height: auto;
+}
+.basic-logo{
+    height: 80px;
+    width: 80px;
+}
+.n_i_a-logo{
+    height: 120px;
+    width: 120px;
+}
+.custom-background{
+    margin-top: 30px;
+    background-color: rgba(0,0,0,.4);
+}
+.payment-image{
+    width: 100%;
+    height: auto;
+}
+.payment-text-background{
+    background-color: #000;
+}
+.payment-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .col-md-4 {
 	padding-bottom: 20px;
@@ -153,10 +184,6 @@ hr:before {
     width: 50%;
     height: 2px;
     background: #ccc;
-}
-
-a img {
-    background: white;
 }
 
 .odd a img {
