@@ -277,8 +277,8 @@ a:after {
    ========================================================================== */
 
 #headerwrap {	
-	margin-top: -50px;
-	padding-top:120px;
+	margin-top: 0px;
+	padding-top:0px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -298,9 +298,9 @@ a:after {
 
 
 
-#headerwrap p {
+#scrolldown-text {
         font-family: Pacifico ;
-        padding-top:456px;
+        margin-top: -100px;
         color: #333333;
         font-size: 18px;
         font-weight: 400;

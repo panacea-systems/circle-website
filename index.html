@@ -61,18 +61,25 @@
     </div>
     </div>
 
-  
+  <script type="text/javascript">
+ $( document ).ready(function() {
+  var h=$(window).height();   
+  document.getElementById("home-background").style.height = h+ 'px';
+  });
+  </script>
   
 		<!-- ==== HEADERWRAP ==== -->
-	    <div id="headerwrap" id="home" name="home" style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background-size: cover; margin-top:0px;margin-bottom:0px;">
-			<header class="clearfix">
-	  		 		<!--h1><span class="icon icon-shield"></span></h1-->
-	  		 		<a href="#greywrap" class="smoothScroll">
-	  		 			<p class="scrolldown-text ">scroll down for more</p>
-	  		 		</a>
-	  		 		
-	  		</header>	    
+	    <div id="headerwrap" id="home" name="home" >
+			<!--header class="clearfix">
+
+style="background:url('images/CoverArt_LowRes.jpg') no-repeat center; background-size: cover; margin-top:0px;margin-bottom:0px;"
+		</header-->	  
+			<img src="images/CoverArt_LowRes.jpg" id ="home-background" style="width:100%;">  
 	    </div>
+        
+        <a href="#greywrap" class="smoothScroll">
+	  		 			<p id="scrolldown-text">scroll down for more</p>
+	  		 		</a>
 
 		<!-- ==== GREYWRAP ==== -->
 		<div id="greywrap">
