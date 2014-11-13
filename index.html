@@ -69,10 +69,13 @@
   </script>
   
         <!-- ==== HEADERWRAP ==== -->
-        <div id="headerwrap" id="home" name="home" >      
-            <img src="images/CoverArt_LowRes.jpg" id ="home-background" style="width:100%;">  
+        <div id="headerwrap" id="home" name="home" class="hidden-xs hidden-sm hidden-md">      
+                <img src="images/CoverArt_LowRes.jpg" id ="home-background" style="max-width:100%;max-height: 100%;">  
         </div>
-        
+        <div id="home" name="home" class="hidden-lg" style="margin-top: 50px;">      
+                <img src="images/CoverArt_LowRes.jpg" id ="home-background" style="max-width:100%;max-height: 100%;">  
+        </div>
+       
         <a href="#greywrap" class="smoothScroll">
                         <p id="scrolldown-text">Click for more...</p>
                     </a>
